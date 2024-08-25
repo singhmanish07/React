@@ -8,8 +8,7 @@ root1.render(heading1);
 
 console.log(heading1); // return object
 
-
-/* 
+/* HTML content
 <div id="parent">
     <div id="child1">
         <h1>I'm in c1h1 tag</h1>
@@ -22,6 +21,7 @@ console.log(heading1); // return object
 </div> 
 */
 
+// Above html content is created by REACT below
 
 const parent = React.createElement("div", { id: "parent" }, [
   React.createElement("div", { id: "child1" }, [
